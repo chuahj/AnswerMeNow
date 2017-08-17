@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "52777281258",
+    "project_id": "firebase-answermenow"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52777281258:android:16f40a7e24cb9d44",
+        "android_client_info": {
+          "package_name": "app.answermenow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52777281258-ss0afdrp4dgfk5urtn5ts3eipvbp1tb2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.answermenow",
+            "certificate_hash": "1c883960165f558a5ebb5832f6bc1b070d37da22"
+          }
+        },
+        {
+          "client_id": "52777281258-mc8sl7bb5pt13437r5oq5d6irlj2pl0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRNphGisfRtuEtyxVYVEkzNxCnV1UlAEI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
