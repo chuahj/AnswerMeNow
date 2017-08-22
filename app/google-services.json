@@ -13,7 +13,7 @@
       },
       "oauth_client": [
         {
-          "client_id": "52777281258-ss0afdrp4dgfk5urtn5ts3eipvbp1tb2.apps.googleusercontent.com",
+          "client_id": "52777281258-7bf3c8k8qh9cpf4cajtarb9u2aqcmdco.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "app.answermenow",
@@ -21,13 +21,21 @@
           }
         },
         {
-          "client_id": "52777281258-mc8sl7bb5pt13437r5oq5d6irlj2pl0g.apps.googleusercontent.com",
+          "client_id": "52777281258-h142bvv7ljcj9nbild06n285hnmjuqdn.apps.googleusercontent.com",
           "client_type": 3
+        },
+        {
+          "client_id": "52777281258-kptnpc1q8jokhth5aij0uou7h0f25kt7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.answermenow",
+            "certificate_hash": "121342b2976038a18c9159249912045e904b4cc0"
+          }
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDRNphGisfRtuEtyxVYVEkzNxCnV1UlAEI"
+          "current_key": "AIzaSyBpPFKZfjZqE-S1AWqZFL1w7PRt58CWsvQ"
         }
       ],
       "services": {
