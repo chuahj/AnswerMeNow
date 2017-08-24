@@ -46,9 +46,12 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     private GoogleSignInOptions configureGoogleSignInOptions() {
         // Configure sign-in to request the user's ID, email address, and basic
         // profile. ID and basic profile are included in DEFAULT_SIGN_IN.
-        return new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestIdToken("52777281258-h142bvv7ljcj9nbild06n285hnmjuqdn.apps.googleusercontent.com")
                 .requestEmail()
                 .build();
+
+        return gso;
     }
 
     private void initializeGoogleApiClient (GoogleSignInOptions gso) {
@@ -94,7 +97,8 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     }
 
     private void handleSignInResult(GoogleSignInResult result) {
-        Log.d(TAG, "handleSignInResult:" + result.isSuccess());
+
+        Log.d(TAG, "handleSignInResult:" + result.isSuccess() + ", " + result.getStatus());
         if (result.isSuccess()) {
             GoogleSignInAccount acct = result.getSignInAccount();
             String personName = acct.getDisplayName();
